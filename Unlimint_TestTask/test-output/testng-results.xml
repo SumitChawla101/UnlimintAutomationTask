@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready.]]>
+    </line>
+    <line>
+      <![CDATA[Settings done and Test can be started.]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and getting application ready.]]>
+    </line>
+    <line>
+      <![CDATA[Test Running]]>
+    </line>
+    <line>
+      <![CDATA[Calling random user api to get and set user data]]>
+    </line>
+    <line>
+      <![CDATA[ValidateE2EProductPurchaseTestCase test is about to end. 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>>>> Report Generated.
+
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43864" started-at="2022-11-07T17:45:12Z" finished-at="2022-11-07T17:45:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43864" started-at="2022-11-07T17:45:12Z" finished-at="2022-11-07T17:45:56Z">
+      <class name="testCases.E2EProductPurchaseTestCase">
+        <test-method status="PASS" signature="SetupSuite()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="SetupSuite" is-config="true" duration-ms="4448" started-at="2022-11-07T17:45:08Z" finished-at="2022-11-07T17:45:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready.]]>
+            </line>
+            <line>
+              <![CDATA[Settings done and Test can be started.]]>
+            </line>
+            <line>
+              <![CDATA[Trying to start Browser and getting application ready.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="setup" is-config="true" duration-ms="0" started-at="2022-11-07T17:45:12Z" finished-at="2022-11-07T17:45:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFlowName()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="getFlowName" is-config="true" duration-ms="8" started-at="2022-11-07T17:45:12Z" finished-at="2022-11-07T17:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlowName -->
+        <test-method status="PASS" signature="ValidateE2EProductPurchaseTestCase()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="ValidateE2EProductPurchaseTestCase" duration-ms="43813" started-at="2022-11-07T17:45:12Z" finished-at="2022-11-07T17:45:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Calling random user api to get and set user data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateE2EProductPurchaseTestCase -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="tearDownMethod" is-config="true" duration-ms="3" started-at="2022-11-07T17:45:56Z" finished-at="2022-11-07T17:45:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateE2EProductPurchaseTestCase status=SUCCESS method=E2EProductPurchaseTestCase.ValidateE2EProductPurchaseTestCase()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2] output=Calling random user api to get and set user data]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ValidateE2EProductPurchaseTestCase test is about to end. 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-11-07T17:45:56Z" finished-at="2022-11-07T17:45:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Completed >>>>> Report Generated.
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown2()[pri:0, instance:testCases.E2EProductPurchaseTestCase@53ca01a2]" name="tearDown2" is-config="true" duration-ms="1733" started-at="2022-11-07T17:45:56Z" finished-at="2022-11-07T17:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown2 -->
+      </class> <!-- testCases.E2EProductPurchaseTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
